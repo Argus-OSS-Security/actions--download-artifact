@@ -1,12 +1,13 @@
 name: Test
-on:
-  push:
-    paths-ignore:
-      - '**.md'
-  pull_request:
-    paths-ignore:
-      - '**.md'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     paths-ignore:
+#       - '**.md'
+#   pull_request:
+#     paths-ignore:
+#       - '**.md'
+# 
 jobs:
   build:
     name: Build
